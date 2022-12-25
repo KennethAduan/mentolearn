@@ -42,3 +42,10 @@
   display: inline-block;
   line-height: 1em;
 }
+
+#sortbox:checked ~ #sortboxmenu {
+  opacity: 1;
+}
+#sortbox:checked ~ #sortboxmenu {
+  opacity: 1;
+}
