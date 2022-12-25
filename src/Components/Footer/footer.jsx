@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import LogoFooter from "../../Assets/images/MentoLearn2.png";
 const footer = () => {
   return (
@@ -11,9 +12,12 @@ const footer = () => {
       </a>
       <ul className="flex flex-wrap items-center mt-3 text-xl text-gray-500 dark:text-gray-400 sm:mt-0 ml-4">
         <li>
-          <a href="/" className="mr-4 hover:underline md:mr-6 ">
-            About
-          </a>
+          <Link to="/about">
+            {" "}
+            <a href="/" className="mr-4 hover:underline md:mr-6 ">
+              About
+            </a>
+          </Link>
         </li>
         <li>
           <a href="/" className="mr-4 hover:underline md:mr-6">
@@ -69,7 +73,7 @@ const footer = () => {
               </li>
               <li>
                 <a href="/" className="block px-3 py-2 hover:bg-gray-200">
-                 French
+                  French
                 </a>
               </li>
             </ul>

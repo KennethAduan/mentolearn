@@ -3,6 +3,7 @@ import "./home.css";
 import AnimeFunction from "../Hooks/AnimeFunction";
 import MentoLearnLogoUpper from "../../Assets/images/MentoLearn1.png";
 import MainLogo from "../../Assets/images/MainLogo.png";
+
 const home = () => {
   return (
     <div>
@@ -30,12 +31,8 @@ const home = () => {
         <div className="px-6 h-full text-gray-800">
           <div className="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
             <div className="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0">
-            {/* Main Logo part */}
-              <img
-                src={MainLogo}  
-                className="w-full"
-                alt="Main Logo"
-              />
+              {/* Main Logo part */}
+              <img src={MainLogo} className="w-full" alt="Main Logo" />
             </div>
             <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
               <form>
@@ -164,6 +161,7 @@ const home = () => {
           </div>
         </div>
       </section>
+     
     </div>
   );
 };
