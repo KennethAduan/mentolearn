@@ -1,4 +1,3 @@
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./Components/HomePage/home.jsx";
 import Footer from "./Components/Footer/footer.jsx";

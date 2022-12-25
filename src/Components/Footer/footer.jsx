@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import LogoFooter from "../../Assets/images/MentoLearn2.png";
 const footer = () => {
   return (
-    <footer className="bg-white rounded-lg shadow md:flex md:items-center">
+    <footer className="footer--pin bg-white rounded-lg shadow md:flex md:items-center">
       <a href="/" className="flex items-center">
         <img src={LogoFooter} className="w-60 " alt="MentoLearn Logo" />
         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-gray-400">
@@ -20,9 +20,12 @@ const footer = () => {
           </Link>
         </li>
         <li>
+          <Link to='/guest'>
           <a href="/" className="mr-4 hover:underline md:mr-6">
             Guest Controls
           </a>
+          </Link>
+       
         </li>
         <li>
           <a href="/" className="mr-4 hover:underline md:mr-6">

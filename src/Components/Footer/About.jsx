@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 import Logo from "../../Assets/images/MentoLearn1.png";
 const About = () => {
   return (
@@ -6,9 +7,9 @@ const About = () => {
       <div className="w-96 mt-4 ml-4">
         <img src={Logo} alt="Mento Learn Logo" />
       </div>
-      <hr className="my-8 h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
+      <hr className="bg-gray-200 border-0 dark:bg-gray-700 p-0.5"></hr>
       <div className="content text-center">
-        <div className="about  ">
+        <div className="about mt-10 ">
           <h1>About MentoLearn</h1>
           <p>
             Welcomee to MentoLearn, the world's largest professional network
@@ -44,10 +45,9 @@ const About = () => {
             membership subscriptions, advertising sales and recruitment <br />
             solutions under the leadership of Kenneth Aduan Lorem ipsum dolor
             sit amet consectetur adipisicing elit. <br />
-
           </p>
         </div>
-        
+        <hr className=" bg-gray-200 border-0 dark:bg-gray-700 mt-24 p-0.5"></hr>
       </div>
     </div>
   );

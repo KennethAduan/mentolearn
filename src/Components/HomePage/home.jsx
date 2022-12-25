@@ -20,9 +20,9 @@ const home = () => {
             <span class="letters">Welcome to your</span>
           </span>
         </h1>
-        <h1 class="ml15">
-          <span class="word">Professional</span>
-          <span class="word">Community</span>
+        <h1 className="ml15">
+          <span className="word">Professional</span>
+          <span className="word ml-10">Community</span>
         </h1>
       </div>
 
