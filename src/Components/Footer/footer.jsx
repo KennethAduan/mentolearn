@@ -20,12 +20,11 @@ const footer = () => {
           </Link>
         </li>
         <li>
-          <Link to='/guest'>
-          <a href="/" className="mr-4 hover:underline md:mr-6">
-            Guest Controls
-          </a>
+          <Link to="/guest">
+            <a href="/" className="mr-4 hover:underline md:mr-6">
+              Guest Controls
+            </a>
           </Link>
-       
         </li>
         <li>
           <a href="/" className="mr-4 hover:underline md:mr-6">

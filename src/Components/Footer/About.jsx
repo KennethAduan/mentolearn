@@ -7,7 +7,7 @@ const About = () => {
       <div className="w-96 mt-4 ml-4">
         <img src={Logo} alt="Mento Learn Logo" />
       </div>
-      <hr className="bg-gray-200 border-0 dark:bg-gray-700 p-0.5"></hr>
+      <hr className="bg-gray-200 border-0 dark:bg-gray-700 p-1"></hr>
       <div className="content text-center">
         <div className="about mt-10 ">
           <h1>About MentoLearn</h1>
@@ -47,7 +47,7 @@ const About = () => {
             sit amet consectetur adipisicing elit. <br />
           </p>
         </div>
-        <hr className=" bg-gray-200 border-0 dark:bg-gray-700 mt-24 p-0.5"></hr>
+        <hr className=" bg-gray-200 border-0 dark:bg-gray-700 mt-24 p-2"></hr>
       </div>
     </div>
   );

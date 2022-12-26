@@ -31,7 +31,7 @@ const Guest = () => {
         </p>
       </div>
 
-      <hr className="horizontal bg-gray-200 border-0 dark:bg-gray-700 mt-24 p-0.5"></hr>
+      <hr className="horizontal bg-gray-200 border-0 dark:bg-gray-700 mt-52 p-0.5"></hr>
     </div>
   );
 };
