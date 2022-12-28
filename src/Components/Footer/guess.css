@@ -1,12 +1,22 @@
+body {
+  background-color: #f0f3f4;
+}
 h2 {
   color: #0038ff;
   font-weight: bold;
+  font-size: 25px;
 }
 
 p {
-  
+  font-size: 20px;
+}
+h1 {
+  font-size: 25px;
 }
 
-.horizontal{
-    
+.unsubscribe {
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-top: 300px;
+  margin-bottom: 150px;
 }

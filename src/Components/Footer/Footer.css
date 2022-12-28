@@ -1,11 +1,5 @@
-
-h1{
-    font-size: 30px;
-    font-weight: bold;
-    
+.footer--pin {
+  /* position: absolute;
+    bottom: 0; */
+  /* margin-top: auto; */
 }
-
-p{
-    color: #ABA9AA;
-}
-

@@ -1,18 +1,23 @@
 import React from "react";
 import Logo from "../../Assets/images/MentoLearn1.png";
 import "./guess.css";
+import Footer from "./footer.jsx"
 const Guest = () => {
   return (
-    <div>
+    <body>
+    <div className="min-h-screen">
       <div className="bg-white">
         <div className="w-96  ml-4 ">
           <img src={Logo} alt="Mento Learn Logo" />
         </div>
         <hr className=" bg-gray-200 border-0 dark:bg-gray-700 p-0.5"></hr>
       </div>
-      <div className="unsubscribe rounded-md bg-white border border-inherit mt-24 ml-12 mr-12">
-        <h1 className="pl-8">Unsubscribe</h1>
-        <h2 className="pt-8 pl-4">Unsubscribe from MentoLearn Email Communications</h2>
+      <div className="unsubscribe rounded-md bg-white border border-inherit ">  {/* */}
+       
+        <h1 className="pl-4 pt-4">Unsubscribe</h1>
+        <h2 className="pt-4 pl-4">
+          Unsubscribe from MentoLearn Email Communications
+        </h2>
         <p className="pl-8 leading-loose">
           MentoLearn uses email addresses upload by members to make suggestion
           in features like People You May Know. Use this link to <br />
@@ -21,7 +26,7 @@ const Guest = () => {
         </p>
         <br />
         <h2 className="pl-4">Unsubscribe from MentoLearn SMS Communications</h2>
-        <p className="pl-8 leading-loose">
+        <p className="pl-8 leading-loose pb-4">
           MentoLearn uses phone numbers uploaded by members to make suggestions
           in features like People You May Know. If you are a <br />
           MentoLearn member, you may also receive select notifications via SMS,
@@ -30,9 +35,10 @@ const Guest = () => {
           being processed by MentoLearn.
         </p>
       </div>
-
-      <hr className="horizontal bg-gray-200 border-0 dark:bg-gray-700 mt-52 p-0.5"></hr>
+      <hr className="line-bottom horizontal bg-gray-200 border-0 dark:bg-gray-700 mt-96 p-0.5"></hr>
+      <Footer/>
     </div>
+    </body>
   );
 };
 
