@@ -4,8 +4,16 @@
 
 .contents {
   color: #629cd8;
-  
 }
 span {
   color: black;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  display: none;
 }

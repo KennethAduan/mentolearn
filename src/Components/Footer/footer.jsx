@@ -59,28 +59,39 @@ const footer = () => {
             id="sortboxmenu"
             className="absolute mt-1 right-1 top-full min-w-max shadow rounded opacity-0 bg-gray-300 border border-gray-400 transition delay-75 ease-in-out z-10"
           >
-            <ul className="block text-right text-gray-900">
-              <li>
-                <a href="/" className="block px-3 py-2 hover:bg-gray-200">
-                  English
-                </a>
-              </li>
-              <li>
-                <a href="/" className="block px-3 py-2 hover:bg-gray-200">
-                  Japanese
-                </a>
-              </li>
-              <li>
-                <a href="/" className="block px-3 py-2 hover:bg-gray-200">
-                  Chinese
-                </a>
-              </li>
-              <li>
-                <a href="/" className="block px-3 py-2 hover:bg-gray-200">
-                  French
-                </a>
-              </li>
-            </ul>
+            <div class="logo">
+              <a href="#">
+                <img
+                  src="https://bluebits.dev/wp-content/uploads/2020/06/cropped-logo-1.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="lang-menu">
+              <div class="selected-lang">English</div>
+              <ul>
+                <li>
+                  <a href="#" class="de">
+                    German
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="en">
+                    English
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="fr">
+                    French
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="ar">
+                    Arabic
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         {/* <li>
