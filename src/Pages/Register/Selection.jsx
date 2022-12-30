@@ -12,28 +12,35 @@ const Selection = () => {
           <img src={Logo} alt="Mento Learn Logo" />
         </a>
       </div>
+      <section className="h-screen">
+        <div className="px-6 h-full text-gray-800">
+          <div className="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
+            <div className="flex flex-row ml-12">
+              <div className="student ">
+                <img src={Student} alt="Student Logo" />
+                <a
+                  href="/student"
+                  type="button"
+                  className="ml-24 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                >
+                  STUDENT
+                </a>
+              </div>
+              <div className="professor ml-36">
+                <img src={Professor} alt="Professor Logo" />
+                <button
+                  type="button"
+                  className="ml-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                >
+                  PROFESSOR
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <div className="flex flex-row mt-36 ">
-        <div className="student basis-1/2 ml-80 mb-12">
-          <img src={Student} alt="Student Logo" />
-          <button
-            type="button"
-            className="ml-24 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-          >
-            STUDENT
-          </button>
-        </div>
-        <div className="professor ">
-          <img src={Professor} alt="" />
-          <button
-            type="button"
-            className="ml-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-          >
-            PROFESSOR
-          </button>
-        </div>
-      </div>
-      <hr className=" bg-gray-200 border-0 dark:bg-gray-700 mt-80 p-0.5"></hr>
+      <hr className=" bg-gray-200 border-0 dark:bg-gray-700  p-0.5"></hr>
     </div>
   );
 };
