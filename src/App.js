@@ -1,22 +1,23 @@
-import { Routes, Route } from "react-router-dom";
 import HomePage from "./Components/HomePage/home.jsx";
-import About from "./Components/Footer/About.jsx";
-import Guest from "./Components/Footer/Guest.jsx";
-import UserAgree from "./Components/Footer/UserAgree.jsx";
+import FooterPage from "./Components/Footer/footer.jsx";
+import AboutPage from "./Components/Footer/About.jsx";
+import UserPage from "./Components/Footer/UserAgree.jsx";
+import GuestPage from "./Components/Footer/Guest.jsx";
 import Selection from "./Pages/Register/Selection.jsx";
-import "./index.css";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App-container min-h-screen">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="about" element={<About />} />
-        <Route path="guest" element={<Guest />} />
-        <Route path="userAgree" element={<UserAgree />} />
-        <Route path="selection" element={<Selection />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/guest" element={<GuestPage />} />
+        <Route path="/userAgree" element={<UserPage />} />
+        <Route path="/selection" element={<Selection />} />
       </Routes>
-    </div>
+      <FooterPage />
+      <Routes></Routes>
+    </BrowserRouter>
   );
 }
 

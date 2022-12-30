@@ -5,13 +5,13 @@
 .contents {
   color: #629cd8;
 }
-span {
+/* span {
   color: black;
-}
-body {
+} */
+/* body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-}
+} */
 
 #btn-back-to-top {
   position: fixed;

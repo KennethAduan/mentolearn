@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../Components/Footer/footer.jsx";
+
 import Logo from "../../Assets/images/MentoLearn1.png";
 import Student from "../../Assets/images/Student.png";
 import Professor from "../../Assets/images/Professor.png";
@@ -7,7 +7,10 @@ const Selection = () => {
   return (
     <div>
       <div className="w-96 mt-4 ml-4 ">
-        <img src={Logo} alt="Mento Learn Logo" />
+        <a href="/">
+          {" "}
+          <img src={Logo} alt="Mento Learn Logo" />
+        </a>
       </div>
 
       <div className="flex flex-row mt-36 ">
@@ -31,7 +34,6 @@ const Selection = () => {
         </div>
       </div>
       <hr className=" bg-gray-200 border-0 dark:bg-gray-700 mt-80 p-0.5"></hr>
-      <Footer />
     </div>
   );
 };
