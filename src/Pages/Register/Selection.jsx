@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import Logo from "../../Assets/images/MentoLearn1.png";
 import Student from "../../Assets/images/Student.png";
 import Professor from "../../Assets/images/Professor.png";
@@ -18,22 +18,27 @@ const Selection = () => {
             <div className="flex flex-row ml-12">
               <div className="student ">
                 <img src={Student} alt="Student Logo" />
-                <a
-                  href="/student"
-                  type="button"
-                  className="ml-24 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                >
-                  STUDENT
-                </a>
+                <Link to="/student">
+                  <a
+                    href="/student"
+                    type="button"
+                    className="ml-24 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                  >
+                    STUDENT
+                  </a>
+                </Link>
               </div>
               <div className="professor ml-36">
                 <img src={Professor} alt="Professor Logo" />
-                <button
-                  type="button"
-                  className="ml-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                >
-                  PROFESSOR
-                </button>
+                <Link to="/clickHere">
+                  <a
+                    href="/clickHere"
+                    type="button"
+                    className="ml-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                  >
+                    PROFESSOR
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

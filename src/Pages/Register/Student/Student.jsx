@@ -1,6 +1,6 @@
 import React from "react";
 import "./student.css";
-import Logo from "../../Assets/images/MentoLearn1.png";
+import Logo from "../../../Assets/images/MentoLearn1.png";
 const Student = () => {
   return (
     <div>
@@ -149,7 +149,7 @@ const Student = () => {
                   type="text"
                   name="post"
                   id="post"
-                  placeholder="ex:8976"
+                  placeholder="ex:1304"
                   class="formbold-form-input"
                 />
               </div>
@@ -162,7 +162,7 @@ const Student = () => {
                   type="text"
                   name="city"
                   id="city"
-                  placeholder="ex: New York"
+                  placeholder="ex: Manila"
                   class="formbold-form-input"
                 />
               </div>
