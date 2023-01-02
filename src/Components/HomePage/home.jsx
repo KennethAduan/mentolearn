@@ -85,8 +85,9 @@ const home = () => {
                           </a>
                         </div>
                       </div>
+                      <Link to = 'main'>
                       <a
-                        href="./components/main.html  "
+                        href="/main "
                         className="w-full py-3 font-medium text-white bg-indigo-600 hover:bg-indigo-500 rounded-lg border-indigo-500 hover:shadow inline-flex space-x-2 items-center justify-center"
                       >
                         <svg
@@ -105,6 +106,7 @@ const home = () => {
                         </svg>
                         <span>Login</span>
                       </a>
+                      </Link>
                       <p className="text-center">
                         Not registered yet?
                         <Link to="/selection">
