@@ -3,6 +3,7 @@ import Logo from "../../../Assets/images/MentoLearn1.png";
 import RegisLogo from "../../../Assets/images/LogoRegistration.png";
 import { Link } from "react-router-dom";
 import "./Mentor.css";
+import Footer from "../../../Components/Footer/footer";
 const Mentor = () => {
   
   return (
@@ -29,7 +30,7 @@ const Mentor = () => {
         </h1>
         <hr className="line-bottom horizontal bg-blue-400 border-0  mt-2 p-0.5 mr-2 ml-2 "></hr>
       </div>
-      <div className=" flex flex-nowrap">
+      <div className=" flex justify-evenly">
         <div className="steps mt-24 ml-8 font-bold text-slate-700 text-4xl">
           <h1 className="">Step by Step Guide</h1>
           <div className="ml-12 mt-6">
@@ -47,7 +48,7 @@ const Mentor = () => {
             <p className="mt-8">3. Supply all the required information</p>
           </div>
         </div>
-        <div className="logo mt-24 ml-72">
+        <div className="logo mt-24 ">
           <img src={RegisLogo} alt="logo" />
         </div>
       </div>
@@ -72,6 +73,7 @@ const Mentor = () => {
         </button>
      </Link>
       </div>
+      <Footer/>
     </div>
   );
 };

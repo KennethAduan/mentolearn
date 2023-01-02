@@ -1,6 +1,7 @@
 import React from "react";
 import "./student.css";
 import Logo from "../../../Assets/images/MentoLearn1.png";
+import Footer from "../../../Components/Footer/footer";
 const Student = () => {
   return (
     <div>
@@ -205,7 +206,7 @@ const Student = () => {
                   </div>
                 </div>
                 I agree to the
-                <a href="#"> Agreement, Privacy Policy, and Cookie Policy.</a>
+                <a href="/"> Agreement, Privacy Policy, and Cookie Policy.</a>
               </label>
             </div>
 
@@ -226,6 +227,7 @@ const Student = () => {
           </form>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

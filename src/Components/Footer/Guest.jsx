@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../Assets/images/MentoLearn1.png";
 import "./guess.css";
-
+import Footer from "./footer";
 const Guest = () => {
   return (
     <body>
@@ -44,7 +44,7 @@ const Guest = () => {
           </p>
         </div>
         <hr className="line-bottom horizontal bg-gray-200 border-0 dark:bg-gray-700 mt-96 p-0.5"></hr>
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     </body>
   );

@@ -1,5 +1,5 @@
 import HomePage from "./Components/HomePage/home.jsx";
-import FooterPage from "./Components/Footer/footer.jsx";
+
 import AboutPage from "./Components/Footer/About.jsx";
 import UserPage from "./Components/Footer/UserAgree.jsx";
 import GuestPage from "./Components/Footer/Guest.jsx";
@@ -25,7 +25,6 @@ function App() {
         <Route path="/registrationMentor" element={<RegistrationMentor />} />
         <Route path="/main" element={<MainPage />} />
       </Routes>
-      {/* <FooterPage /> */}
       <Routes></Routes>
     </BrowserRouter>
   );

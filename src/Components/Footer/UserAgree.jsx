@@ -1,5 +1,5 @@
 import React from "react";
-// import Footer from "./footer.jsx";
+import Footer from "./footer.jsx";
 import Logo from "../../Assets/images/MentoLearn2.png";
 import "./user.css";
 import { useEffect } from "react";
@@ -475,7 +475,7 @@ const UserAgree = () => {
           </section>
         </div>
         <hr className=" bg-gray-200 border-0 dark:bg-gray-700 mt-24 p-0.5"></hr>
-        {/* <Footer /> */}
+        <Footer />
       </div>
       {/* <!-- Back to top button --> */}
       <button

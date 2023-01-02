@@ -1,44 +1,78 @@
 import React from "react";
-import "./right.css";
 import ProfileIcon from "../../../Assets/images/Profile_icon.svg";
-import Connections from "../../../Assets/images/Connections.png";
-import Events from "../../../Assets/images/Events.png";
-import Groups from "../../../Assets/images/Groups.png";
-
+import "./right.css";
 const RightBar = () => {
   return (
-    <div>
-      <div className="rightContainer w-96 bg-white mt-4 ml-4 border">
-        <div className="bg-gray border h-16 text-center text-sm bg-slate-400">
-          <p className="mt-4">BACKGROUND TO COVER PHOTO</p>
+    <div className="flex justify-items-end mt-2 ">
+      <div className="holder mr-4 border rounded bg-white ">
+        <div className="titleRecomended mt-4 ml-4 pr-4">
+          <h1 className="font-bold">Highly Recommeded Mentor</h1>
         </div>
-        <div className="profilePart flex bg-white pb-12">
-          <img className="ml-4 w-24 mt-4" src={ProfileIcon} alt="profile" />
-          <div className="ml-4 mt-4">
-            <h1>Angeles R. Tabrilla</h1>
-            <p>(SAMPLE DESCRIPTION)</p>
+        <div>
+          {/* Profile pic for Recommedation James Mortel*/}
+          <div className="flex  ml-4 mt-4 ">
+            <div className="firstPic">
+              <img className="w-24" src={ProfileIcon} alt="Profile Icon" />
+            </div>
+            <div className="text-center ml-4">
+              <h1 className="">James Mortel</h1>
+              <p className="text-sm">System Analyst | Web Developer</p>
+            </div>
           </div>
-        </div>
-        <div className="belowPart bg-white mt-2 pb-12 pt-2 ">
-          <div className="flex flex-row items-center">
-            <img
-              className="w-24 ml-4 mt-2"
-              src={Connections}
-              alt="Connections"
-            />
-            <p className="ml-8 "> Connections (100)</p>
-          </div>
-          <div className="flex flex-row items-center">
-            <img className="w-24 ml-4 mt-4" src={Events} alt="Events" />
-            <p className="ml-8 "> Events +</p>
-          </div>
-          <div className="flex flex-row items-center">
-            <img className="w-24 ml-4 mt-4" src={Groups} alt="Groups" />
-            <p className="ml-8 "> Groups</p>
+          <div className="ml-32 followButton1">
+            <button
+              type="button"
+              className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+            >
+              + Follow
+            </button>
           </div>
         </div>
-        <div className=" bg-white mt-2 text-center p-4">
-          <p className="text-base">Try Premium for 3 days free</p>
+        <div>
+          {/* Profile pic for Recommedation Jeselle Victoria*/}
+          <div className="flex  ml-4 mt-4 ">
+            <div className="firstPic">
+              <img className="w-24" src={ProfileIcon} alt="Profile Icon" />
+            </div>
+            <div className="text-center ml-4">
+              <h1 className="">Jeselle Victoria</h1>
+              <p className="text-sm">UI/UX | Photographer</p>
+            </div>
+          </div>
+          <div className="ml-32 followButton1">
+            <button
+              type="button"
+              className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+            >
+              + Follow
+            </button>
+          </div>
+        </div>
+        <div>
+          {/* Profile pic for Recommedation Raphael Isla*/}
+          <div className="flex  ml-4 mt-4 ">
+            <div className="firstPic">
+              <img className="w-24" src={ProfileIcon} alt="Profile Icon" />
+            </div>
+            <div className="text-center ml-4">
+              <h1 className="">Raphael Isla</h1>
+              <p className="text-sm">Java | Python | C# </p>
+            </div>
+          </div>
+          <div className="ml-32 followButton1">
+            <button
+              type="button"
+              className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+            >
+              + Follow
+            </button>
+          </div>
+        </div>
+
+        <div className="Recommendations ml-4 pb-8 mt-8 text-neutral-700">
+          <a href="/">
+            <p className="text-base">View all Recommendations &#8594; </p>
+          </a>
         </div>
       </div>
     </div>

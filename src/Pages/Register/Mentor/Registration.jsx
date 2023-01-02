@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../../Assets/images/MentoLearn1.png";
 import "./Registration.css";
+import Footer from "../../../Components/Footer/footer";
 const Registration = () => {
   return (
     <div>
@@ -278,6 +279,7 @@ const Registration = () => {
           Clear
         </button>
       </div>
+      <Footer/>
     </div>
   );
 };

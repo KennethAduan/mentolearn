@@ -4,8 +4,8 @@ import LogoFooter from "../../Assets/images/MentoLearn2.png";
 
 const footer = () => {
   return (
-    <div>
-      <footer className="footer--pin bg-white rounded-lg shadow md:flex md:items-center ">
+    <div className="">
+      <footer className="footer--pin bg-white rounded-lg shadow sm:flex sm:items-center md:flex md:items-center ">
         <a href="/" className="flex items-center">
           <img src={LogoFooter} className="w-60 " alt="MentoLearn Logo" />
           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-gray-400">
@@ -103,7 +103,6 @@ const footer = () => {
         </li> */}
         </ul>
       </footer>
-      {/* <Outlet/> */}
     </div>
   );
 };
