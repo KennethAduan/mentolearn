@@ -41,7 +41,9 @@ const footer = () => {
               for="sortbox"
               className="flex items-center space-x-1 cursor-pointer"
             >
-              <a className="text-lg">Language</a>
+              <a href="/" className="text-lg">
+                Language
+              </a>
               <svg
                 className="h-4 w-4"
                 xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +64,7 @@ const footer = () => {
               className="absolute mt-1 right-1 top-full min-w-max shadow rounded opacity-0 bg-gray-300 border border-gray-400 transition delay-75 ease-in-out z-10"
             >
               <div class="logo">
-                <a href="#">
+                <a href="/">
                   <img
                     src="https://bluebits.dev/wp-content/uploads/2020/06/cropped-logo-1.png"
                     alt=""
@@ -73,22 +75,22 @@ const footer = () => {
                 <div class="selected-lang">English</div>
                 <ul>
                   <li>
-                    <a href="#" class="de">
+                    <a href="/" class="de">
                       German
                     </a>
                   </li>
                   <li>
-                    <a href="" class="en">
+                    <a href="/" class="en">
                       English
                     </a>
                   </li>
                   <li>
-                    <a href="" class="fr">
+                    <a href="/" class="fr">
                       French
                     </a>
                   </li>
                   <li>
-                    <a href="" class="ar">
+                    <a href="/" class="ar">
                       Arabic
                     </a>
                   </li>

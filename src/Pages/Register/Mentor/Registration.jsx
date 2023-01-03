@@ -229,19 +229,11 @@ const Registration = () => {
               <div class="rc-anchor-logo-text">reCAPTCHA</div>
             </div>
             <div class="rc-anchor-pt">
-              <a
-                href="https://www.google.com/intl/en/policies/privacy/"
-                target="_blank"
-              >
+              <a href="https://www.google.com/intl/en/policies/privacy/">
                 Privacy
               </a>{" "}
               -{" "}
-              <a
-                href="https://www.google.com/intl/en/policies/terms/"
-                target="_blank"
-              >
-                Terms
-              </a>
+              <a href="https://www.google.com/intl/en/policies/terms/">Terms</a>
             </div>
           </div>
         </div>
@@ -279,7 +271,7 @@ const Registration = () => {
           Clear
         </button>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

@@ -82,7 +82,7 @@ const header = () => {
               </a>
             </div>
             <div className="profile">
-              <a href="">
+              <a href="/">
                 <img
                   className="w-14 ml-4"
                   src={ProfileIcon}
