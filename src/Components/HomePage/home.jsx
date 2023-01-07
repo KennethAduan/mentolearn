@@ -45,26 +45,26 @@ const home = () => {
                   <form action="" className="my-10">
                     <div className="flex flex-col space-y-5">
                       <label for="email">
-                        <p className="font-medium text-slate-700 pb-2">
+                        {/* <p className="font-medium text-slate-700 pb-2">
                           Email address
-                        </p>
+                        </p> */}
                         <input
                           id="email"
                           name="email"
                           type="email"
-                          className="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow"
+                          className="w-full py-4 border border-slate-200 rounded-lg px-4 focus:outline-none focus:border-slate-500 hover:shadow text-2xl"
                           placeholder="Enter email address"
                         />
                       </label>
                       <label for="password">
-                        <p className="font-medium text-slate-700 pb-2">
+                        {/* <p className="font-medium text-slate-700 pb-2">
                           Password
-                        </p>
+                        </p> */}
                         <input
                           id="password"
                           name="password"
                           type="password"
-                          className="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow"
+                          className="w-full py-4 border border-slate-200 rounded-lg px-4 focus:outline-none focus:border-slate-500 hover:shadow text-2xl"
                           placeholder="Enter your password"
                         />
                       </label>
@@ -85,27 +85,27 @@ const home = () => {
                           </a>
                         </div>
                       </div>
-                      <Link to = 'main'>
-                      <a
-                        href="/main "
-                        className="w-full py-3 font-medium text-white bg-indigo-600 hover:bg-indigo-500 rounded-lg border-indigo-500 hover:shadow inline-flex space-x-2 items-center justify-center"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-6 w-6"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          stroke-width="2"
+                      <Link to="main">
+                        <a
+                          href="/main "
+                          className="w-full py-3 font-medium text-white bg-indigo-600 hover:bg-indigo-500 rounded-lg border-indigo-500 hover:shadow inline-flex space-x-2 items-center justify-center"
                         >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
-                          />
-                        </svg>
-                        <span>Login</span>
-                      </a>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
+                            />
+                          </svg>
+                          <span>Login</span>
+                        </a>
                       </Link>
                       <p className="text-center">
                         Not registered yet?
@@ -152,6 +152,8 @@ const home = () => {
           </div>
         </div>
       </section>
+      <br />
+      <br />
       <Footer />
     </body>
   );

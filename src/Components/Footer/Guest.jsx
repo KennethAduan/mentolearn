@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../Assets/images/MentoLearn1.png";
 import "./guess.css";
-import Footer from "./footer";
+import Footer from "./FooterDiff.jsx";
 const Guest = () => {
   return (
     <body>

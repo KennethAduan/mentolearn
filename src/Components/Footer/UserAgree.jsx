@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./footer.jsx";
+import Footer from "./FooterDiff.jsx";
 import Logo from "../../Assets/images/MentoLearn2.png";
 import "./user.css";
 import { useEffect } from "react";
@@ -53,7 +53,7 @@ const UserAgree = () => {
           {/* Contents */}
           <div className="contents text-2xl">
             <a href="#intro">
-              <span>1.</span>Introduction
+              <span>1.</span> Introduction
             </a>
             <br />
             <a href="#obligation">
