@@ -5,7 +5,7 @@ import LogoFooter from "../../Assets/images/MentoLearn2.png";
 const footer = () => {
   return (
     <div className="">
-      <footer className="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 ">
+      <footer className="p-4 bg-white md:px-6 md:py-8 ">
         <div className="flex items-center justify-center ">
           <ul className="flex items-center mb-6 text-xl text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>

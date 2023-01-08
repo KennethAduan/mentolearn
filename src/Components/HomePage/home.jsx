@@ -80,9 +80,11 @@ const home = () => {
                           </label>
                         </div>
                         <div>
-                          <a href="/" className="font-medium text-indigo-600">
-                            Forgot Password?
-                          </a>
+                          <Link to="forgotPass">
+                            <a href="/" className="font-medium text-indigo-600">
+                              Forgot Password?
+                            </a>
+                          </Link>
                         </div>
                       </div>
                       <Link to="main">

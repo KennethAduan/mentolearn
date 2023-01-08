@@ -9,6 +9,7 @@ import ClickHere from "./Pages/Register/Mentor/ClickHere.jsx";
 import Mentor from "./Pages/Register/Mentor/Mentor.jsx";
 import RegistrationMentor from "./Pages/Register/Mentor/Registration.jsx";
 import MainPage from "./Pages/Main/Main.jsx";
+import ForgotPass from "./Components/HomePage/ForgotPassword/Forgot.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/mentor" element={<Mentor />} />
         <Route path="/registrationMentor" element={<RegistrationMentor />} />
         <Route path="/main" element={<MainPage />} />
+        <Route path="/forgotPass" element={<ForgotPass />} />
       </Routes>
       <Routes></Routes>
     </BrowserRouter>
