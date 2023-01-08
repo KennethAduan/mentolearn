@@ -210,7 +210,11 @@ const Student = () => {
               </label>
             </div>
 
-            <button class="formbold-btn">Submit</button>
+            <div className="flex justify-center text-center">
+              <button className="text-center mt-6 w-48 py-1 rounded formbold-btn">
+                SUBMIT
+              </button>
+            </div>
             <p class="or">
               <span>or</span>
             </p>
