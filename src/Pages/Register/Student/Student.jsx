@@ -12,9 +12,9 @@ const Student = () => {
         </a>
       </div>
       <div className="quote ">
-        <h1 className="text-center text-4xl font-bold">
-          Be a student as long you still have something to learn, <br /> and
-          this will mean all your life - Henry L. Doherty
+        <h1 className="text-center text-4xl font-bold italic">
+          "Be a student as long you still have something to learn, <br /> and
+          this will mean all your life - Henry L. Doherty"
         </h1>
       </div>
       <div class="formbold-main-wrapper">
@@ -217,7 +217,10 @@ const Student = () => {
             <div class="g-sign-in-button ">
               <div class="content-wrapper">
                 <div class="logo-wrapper">
-                  <img src="https://developers.google.com/identity/images/g-logo.png" alt="Logo"/>
+                  <img
+                    src="https://developers.google.com/identity/images/g-logo.png"
+                    alt="Logo"
+                  />
                 </div>
                 <span class="text-container">
                   <span>Sign up with Google</span>
@@ -227,7 +230,7 @@ const Student = () => {
           </form>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

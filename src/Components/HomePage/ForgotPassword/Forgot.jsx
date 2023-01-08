@@ -14,7 +14,7 @@ const Forgot = () => {
         </div>
         <div className="flex justify-center mt-36 ">
           {/* BOX HERE */}
-          <form className="holder border rounded  bg-white shadow-md rounded px-12 pt-6 pb-12 mb-4 w-96">
+          <form className="holder border rounded-lg  bg-white shadow-md rounded px-12 pt-6 pb-12 mb-4 w-96">
             {/* Title */}
             <div className="Forgot">
               <h1 className="font-bold text-4xl">Forgot Passowrd?</h1>

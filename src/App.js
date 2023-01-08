@@ -10,12 +10,14 @@ import Mentor from "./Pages/Register/Mentor/Mentor.jsx";
 import RegistrationMentor from "./Pages/Register/Mentor/Registration.jsx";
 import MainPage from "./Pages/Main/Main.jsx";
 import ForgotPass from "./Components/HomePage/ForgotPassword/Forgot.jsx";
+import Landing from "./Pages/Landing/Landing.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        
         <Route path="/about" element={<AboutPage />} />
         <Route path="/guest" element={<GuestPage />} />
         <Route path="/userAgree" element={<UserPage />} />
