@@ -80,14 +80,14 @@ const home = () => {
                           </label>
                         </div>
                         <div>
-                          <Link to="forgotPass">
+                          <Link to="/forgotPass">
                             <a href="/" className="font-medium text-indigo-600">
                               Forgot Password?
                             </a>
                           </Link>
                         </div>
                       </div>
-                      <Link to="main">
+                      <Link to="/main">
                         <a
                           href="/main "
                           className="w-full py-3 font-medium text-white bg-indigo-600 hover:bg-indigo-500 rounded-lg border-indigo-500 hover:shadow inline-flex space-x-2 items-center justify-center"

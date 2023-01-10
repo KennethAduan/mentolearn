@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../Assets/images/MentoLearn1.png";
+
 const Header = () => {
   return (
     <div>
@@ -9,7 +10,7 @@ const Header = () => {
         <div className="navigation fixed top-0 left-0 w-full z-30 duration-300">
           <div className="container">
             <nav className="navbar py-2 navbar-expand-lg flex justify-between items-center relative duration-300">
-              <a className="navbar-brand" href="index.html">
+              <a className="navbar-brand w-40" href="/">
                 <img src={Logo} alt="Logo" />
               </a>
               <button
@@ -27,7 +28,7 @@ const Header = () => {
               </button>
 
               <div
-                className=""
+                className="hidden lg:block duration-300 shadow absolute top-100 left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none "
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav mr-auto justify-center items-center lg:flex">
@@ -38,32 +39,17 @@ const Header = () => {
                   </li>
                   <li className="nav-item">
                     <a className="page-scroll" href="#services">
-                      Services
+                      Courses
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="page-scroll" href="#feature">
-                      feature
+                      About Us
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="page-scroll" href="#team">
                       Team
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="page-scroll" href="#testimonial">
-                      Testimonial
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="page-scroll" href="#pricing">
-                      Pricing
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="page-scroll" href="#contact">
-                      Contact
                     </a>
                   </li>
                 </ul>

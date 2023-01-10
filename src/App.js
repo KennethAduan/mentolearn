@@ -1,4 +1,4 @@
-// import HomePage from "./Components/HomePage/home.jsx";
+import HomePage from "./Components/HomePage/home.jsx";
 
 import AboutPage from "./Components/Footer/About.jsx";
 import UserPage from "./Components/Footer/UserAgree.jsx";
@@ -16,8 +16,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/" element={<HomePage />} /> */}
+        
         <Route path="/" element={<Landing />} />
+        <Route path="/Home" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/guest" element={<GuestPage />} />
         <Route path="/userAgree" element={<UserPage />} />
