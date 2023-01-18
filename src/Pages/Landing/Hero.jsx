@@ -12,12 +12,12 @@ const Hero = () => {
                 class="text-4xl font-bold leading-snug text-gray-700 mb-10 wow fadeInUp"
                 data-wow-delay="1s"
               >
-                Startup and SaaS Landing Page
-                <br class="hidden lg:block" /> Built with TailwindCSS
+                Unlock your full potential with a personalized mentoring
+                <br class="hidden lg:block" /> experience tailored to your unique goals and needs
               </h2>
               <div class="text-center mb-10 wow fadeInUp" data-wow-delay="1.2s">
-                <a href="#" rel="nofollow" class="btn">
-                  Download Now
+                <a href="/home" rel="nofollow" class="btn">
+                  Get Started
                 </a>
               </div>
               <div class="text-center wow fadeInUp" data-wow-delay="1.6s">
