@@ -27,7 +27,7 @@ const Team = () => {
                   <div class="team-overlay">
                     <ul class="flex justify-center">
                       <li class="mx-1">
-                        <a href="#" class="social-link hover:bg-indigo-500">
+                        <a href="/" class="social-link hover:bg-indigo-500">
                           <i
                             class="lni lni-facebook-original"
                             aria-hidden="true"
@@ -35,7 +35,7 @@ const Team = () => {
                         </a>
                       </li>
                       <li class="mx-1">
-                        <a href="#" class="social-link hover:bg-blue-400">
+                        <a href="/" class="social-link hover:bg-blue-400">
                           <i
                             class="lni lni-twitter-original"
                             aria-hidden="true"
@@ -43,7 +43,7 @@ const Team = () => {
                         </a>
                       </li>
                       <li class="mx-1">
-                        <a href="#" class="social-link hover:bg-red-500">
+                        <a href="/" class="social-link hover:bg-red-500">
                           <i
                             class="lni lni-instagram-original"
                             aria-hidden="true"
@@ -72,7 +72,7 @@ const Team = () => {
                   <div class="team-overlay">
                     <ul class="flex justify-center">
                       <li class="mx-1">
-                        <a href="#" class="social-link hover:bg-indigo-500">
+                        <a href="/" class="social-link hover:bg-indigo-500">
                           <i
                             class="lni lni-facebook-original"
                             aria-hidden="true"
@@ -80,7 +80,7 @@ const Team = () => {
                         </a>
                       </li>
                       <li class="mx-1">
-                        <a href="#" class="social-link hover:bg-blue-400">
+                        <a href="/" class="social-link hover:bg-blue-400">
                           <i
                             class="lni lni-twitter-original"
                             aria-hidden="true"
@@ -88,7 +88,7 @@ const Team = () => {
                         </a>
                       </li>
                       <li class="mx-1">
-                        <a href="#" class="social-link hover:bg-red-500">
+                        <a href="/" class="social-link hover:bg-red-500">
                           <i
                             class="lni lni-instagram-original"
                             aria-hidden="true"
@@ -117,7 +117,7 @@ const Team = () => {
                   <div class="team-overlay">
                     <ul class="flex justify-center">
                       <li class="mx-1">
-                        <a href="#" class="social-link hover:bg-indigo-500">
+                        <a href="/" class="social-link hover:bg-indigo-500">
                           <i
                             class="lni lni-facebook-original"
                             aria-hidden="true"
@@ -125,7 +125,7 @@ const Team = () => {
                         </a>
                       </li>
                       <li class="mx-1">
-                        <a href="#" class="social-link hover:bg-blue-400">
+                        <a href="/" class="social-link hover:bg-blue-400">
                           <i
                             class="lni lni-twitter-original"
                             aria-hidden="true"
@@ -133,7 +133,7 @@ const Team = () => {
                         </a>
                       </li>
                       <li class="mx-1">
-                        <a href="#" class="social-link hover:bg-red-500">
+                        <a href="/" class="social-link hover:bg-red-500">
                           <i
                             class="lni lni-instagram-original"
                             aria-hidden="true"

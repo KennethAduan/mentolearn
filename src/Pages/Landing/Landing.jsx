@@ -2,7 +2,7 @@ import React from "react";
 import "./dist/CSS/animate.css";
 import "./dist/CSS/lineIcons.css";
 import "./dist/CSS/tailwind.css";
-import "./dist/CSS/tiny-slider.css";
+// import "./dist/CSS/tiny-slider.css";
 import "./dist/CSS/Main.css";
 import "./dist/CSS/Style.css";
 // import "./dist/js/Main.js";
