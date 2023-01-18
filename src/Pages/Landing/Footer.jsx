@@ -21,9 +21,9 @@ const Footer = () => {
             <div class="mx-3 mb-8">
               <h3 class="font-bold text-xl text-white mb-5">Company</h3>
               <ul>
-                <li><a href="#" class="footer-links">Press Releases</a></li>
-                <li><a href="#" class="footer-links">Mission</a></li>
-                <li><a href="#" class="footer-links">Strategy</a></li>
+                <li><a href="/" class="footer-links">Press Releases</a></li>
+                <li><a href="/" class="footer-links">Mission</a></li>
+                <li><a href="/" class="footer-links">Strategy</a></li>
               </ul>
             </div>
           </div>
@@ -31,9 +31,9 @@ const Footer = () => {
             <div class="mx-3 mb-8">
               <h3 class="font-bold text-xl text-white mb-5">About</h3>
               <ul>
-                <li><a href="#" class="footer-links">Career</a></li>
-                <li><a href="#" class="footer-links">Team</a></li>
-                <li><a href="#" class="footer-links">Clients</a></li>
+                <li><a href="/" class="footer-links">Career</a></li>
+                <li><a href="/" class="footer-links">Team</a></li>
+                <li><a href="/" class="footer-links">Clients</a></li>
               </ul>
             </div>
           </div>
@@ -43,25 +43,25 @@ const Footer = () => {
         
               <ul class="social-icons flex justify-start">
                 <li class="mx-2">
-                  <a href="#"
+                  <a href="/"
                     class="footer-icon hover:bg-indigo-500">
                     <i class="lni lni-facebook-original" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="mx-2">
-                  <a href="#"
+                  <a href="/"
                     class="footer-icon hover:bg-blue-400">
                     <i class="lni lni-twitter-original" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="mx-2">
-                  <a href="#"
+                  <a href="/"
                     class="footer-icon hover:bg-red-500">
                     <i class="lni lni-instagram-original" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="mx-2">
-                  <a href="#"
+                  <a href="/"
                     class="footer-icon hover:bg-indigo-600">
                     <i class="lni lni-linkedin-original" aria-hidden="true"></i>
                   </a>
