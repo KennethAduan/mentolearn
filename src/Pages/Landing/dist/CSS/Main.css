@@ -1,4 +1,4 @@
-.upperPart {
+/* .upperPart {
   background-color: #eaf8fe;
 }
 .ml15 {
@@ -11,4 +11,10 @@
 .ml15 .word {
   display: inline-block;
   line-height: 1em;
+} */
+
+.carousel-area .tns-nav button:hover,
+.carousel-area .tns-nav button.tns-nav-active {
+  background: #fff;
 }
+/*# sourceMappingURL=main.css.map */
