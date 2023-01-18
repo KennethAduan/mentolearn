@@ -5,7 +5,7 @@ import "./dist/CSS/tailwind.css";
 import "./dist/CSS/tiny-slider.css";
 import "./dist/CSS/Main.css";
 import "./dist/CSS/Style.css";
-import "./dist/js/Main.js";
+// import "./dist/js/Main.js";
 import WOW from 'wow.js';
 import Header from "./Header.jsx";
 import Hero from "./Hero.jsx";
